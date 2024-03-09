@@ -1,0 +1,162 @@
+[
+    {
+        "id": "01",
+        "question" : "I enjoy exploring new ideas and concepts, even if they are unconventional.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "five": "Strongly Agree",
+        "four": "Agree",
+        "three": "Neutral",
+        "two": "Disagree",
+        "one": "Strongly Disagree"
+    },
+    {
+        "id": "02",
+        "question" : "I am highly organized and like to plan ahead.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "five": "Strongly Agree",
+        "four": "Agree",
+        "three": "Neutral",
+        "two": "Disagree",
+        "one": "Strongly Disagree"
+    },
+    {
+        "id": "03",
+        "question" : "I often initiate social interactions and enjoy being around people.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "five": "Strongly Agree",
+        "four": "Agree",
+        "three": "Neutral",
+        "two": "Disagree",
+        "one": "Strongly Disagree"
+    },
+    {
+        "id": "04",
+        "question" : "I find it easy to empathize with other people's feelings.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "five": "Strongly Agree",
+        "four": "Agree",
+        "three": "Neutral",
+        "two": "Disagree",
+        "one": "Strongly Disagree"
+    },
+    {
+        "id": "05",
+        "question" : "I tend to worry a lot about future events and potential problems.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "five": "Strongly Agree",
+        "four": "Agree",
+        "three": "Neutral",
+        "two": "Disagree",
+        "one": "Strongly Disagree"
+    },
+    {
+        "id": "06",
+        "question" : "I prefer routine and familiarity over new and unpredictable experiences.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "five": "Strongly Agree",
+        "four": "Agree",
+        "three": "Neutral",
+        "two": "Disagree",
+        "one": "Strongly Disagree"
+    },
+    {
+        "id": "07",
+        "question" : "How many numbers of elements a valid react component can return?",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "five": "Strongly Agree",
+        "four": "Agree",
+        "three": "Neutral",
+        "two": "Disagree",
+        "one": "Strongly Disagree"
+    },
+    {
+        "id": "08",
+        "question" : "Flexibility and spontaneity are important aspects of how I approach tasks.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "five": "Strongly Agree",
+        "four": "Agree",
+        "three": "Neutral",
+        "two": "Disagree",
+        "one": "Strongly Disagree"
+    },
+    {
+        "id": "09",
+        "question" : "I prefer spending time alone or in small groups rather than large gatherings.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "five": "Strongly Agree",
+        "four": "Agree",
+        "three": "Neutral",
+        "two": "Disagree",
+        "one": "Strongly Disagree"
+    },
+    {
+        "id": "10",
+        "question" : "I am often skeptical and don't trust others easily.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "five": "Strongly Agree",
+        "four": "Agree",
+        "three": "Neutral",
+        "two": "Disagree",
+        "one": "Strongly Disagree"
+    }
+]
