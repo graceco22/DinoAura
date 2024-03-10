@@ -37,7 +37,7 @@ const Chatbot = () => {
         
       <div className="Chat" style={{ backgroundImage: 'url(/images/chatBackground.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <br></br>
-        <h1 style={{ color: '#448569' }}>Chat With Your Dino</h1>
+        <h1 style={{ color: '#448569' }}>Dino Chat</h1>
         <DeepChat
         directConnection={{
             cohere: {

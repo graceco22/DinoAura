@@ -3,36 +3,34 @@ import DataContext from '../context/dataContext';
 import { DeepChat } from 'deep-chat-react';
 import { useState } from 'react';
 const Result = () => {
-    const { showResult, quizs, marks, startOver, startChat, setResult } = useContext(DataContext);
+    const { showResult, quizs, marks, startOver, startChat } = useContext(DataContext);
 
     let resultText, resultStyle;
 
     if (marks > 40) {
         resultText = 'You are: The Easygoing Minimalist';
-        resultStyle = 'bg-success';
+        resultStyle = 'url(/images/yellow.png)';
     } else if (marks > 30) {
         resultText = 'You are: The Relaxed Explorer';
-        resultStyle = 'bg-info';
+        resultStyle = 'url(/images/blue.png)';
     } else if (marks > 20) {
         resultText = 'You are: The Balanced Realist';
-        resultStyle = 'bg-warning';
+        resultStyle = 'url(/images/green.svg)';
     } else if (marks > 10) {
         resultText = 'You are: The Considerate Optimist';
-        resultStyle = 'bg-danger';
+        resultStyle = 'url(/images/purple.png)';
     } else {
         resultText = 'You are: The Thoughtful Realist';
-        resultStyle = 'bg-dark';
+        resultStyle = 'url(/images/red.png)';
     }
 
-    setResult(resultText);
-
     return (
-        <section className="bg-dark text-white" style={{ display: showResult ? 'block' : 'none' }}>
+        <section style={{ display: showResult ? 'block' : 'none' , backgroundImage: resultStyle, backgroundSize: "cover", backgroundRepeat: "no-repeat"}}>
             <div className="container">
-                <div className="row vh-100 align-items-center justify-content-center">
+                <div className="row vh-100 justify-content-center">
                     <div className="col-lg-6">
-                        <div className={`text-light text-center p-5 rounded ${resultStyle}`}>
-                            <h1 className='mb-2 fw-bold'>{resultText}</h1>
+                        <div className={`text-light text-center p-5 rounded`}>
+                            <h1 className='mb-2 fw-bold' style={{ color: '#448569' }}>{resultText}</h1>
                             <button onClick={startOver} className='btn py-2 px-4 btn-light fw-bold d-inline'>Start Over</button>
                             <button onClick={startChat} className='btn py-2 px-4 btn-light fw-bold d-inline'>Go To Chat</button>
 
