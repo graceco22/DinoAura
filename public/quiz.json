@@ -97,22 +97,6 @@
     },
     {
         "id": "07",
-        "question" : "How many numbers of elements a valid react component can return?",
-        "options": [
-            "Strongly Agree",
-            "Agree",
-            "Neutral",
-            "Disagree",
-            "Strongly Disagree"
-        ],
-        "five": "Strongly Agree",
-        "four": "Agree",
-        "three": "Neutral",
-        "two": "Disagree",
-        "one": "Strongly Disagree"
-    },
-    {
-        "id": "08",
         "question" : "Flexibility and spontaneity are important aspects of how I approach tasks.",
         "options": [
             "Strongly Agree",
@@ -128,7 +112,7 @@
         "one": "Strongly Disagree"
     },
     {
-        "id": "09",
+        "id": "08",
         "question" : "I prefer spending time alone or in small groups rather than large gatherings.",
         "options": [
             "Strongly Agree",
@@ -144,8 +128,24 @@
         "one": "Strongly Disagree"
     },
     {
-        "id": "10",
+        "id": "09",
         "question" : "I am often skeptical and don't trust others easily.",
+        "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+        ],
+        "five": "Strongly Agree",
+        "four": "Agree",
+        "three": "Neutral",
+        "two": "Disagree",
+        "one": "Strongly Disagree"
+    },
+    {
+        "id": "10",
+        "question" : "I usually remain calm and composed, even in stressful situations.",
         "options": [
             "Strongly Agree",
             "Agree",
