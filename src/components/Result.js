@@ -8,19 +8,19 @@ const Result = () => {
     let resultText, resultStyle;
 
     if (marks > 40) {
-        resultText = 'You are: The Easygoing Minimalist';
+        resultText = 'You are: Lemon';
         resultStyle = 'url(/images/yellow.png)';
     } else if (marks > 30) {
-        resultText = 'You are: The Relaxed Explorer';
+        resultText = 'You are: Acai';
         resultStyle = 'url(/images/blue.png)';
     } else if (marks > 20) {
-        resultText = 'You are: The Balanced Realist';
+        resultText = 'You are: Kiwi';
         resultStyle = 'url(/images/green.svg)';
     } else if (marks > 10) {
-        resultText = 'You are: The Considerate Optimist';
+        resultText = 'You are: Taro';
         resultStyle = 'url(/images/purple.png)';
     } else {
-        resultText = 'You are: The Thoughtful Realist';
+        resultText = 'You are: Lychee';
         resultStyle = 'url(/images/red.png)';
     }
 
