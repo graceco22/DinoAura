@@ -10,14 +10,6 @@ import { DataProvider } from './context/dataContext';
 function App() {
   return (
     <DataProvider>
-      {/* <Chatbot/> */}
-       {/* <DeepChat
-        demo={true}
-        style={{ borderRadius: '10px', position:'absolute' }}
-        // textInput={{ placeholder: { text: 'Welcome to the demo!' } }}
-        // initialMessages={initialMessages}
-      /> */}
-      
       {/* Welcome Page */}
       <Start/>
 
