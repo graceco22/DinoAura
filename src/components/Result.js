@@ -3,7 +3,7 @@ import DataContext from '../context/dataContext';
 import { DeepChat } from 'deep-chat-react';
 import { useState } from 'react';
 const Result = () => {
-    const { showResult, quizs, marks, startOver, startChat } = useContext(DataContext);
+    const { showResult, quizs, marks, startOver, startChat, setResult } = useContext(DataContext);
 
     let resultText, resultStyle;
 
@@ -23,6 +23,8 @@ const Result = () => {
         resultText = 'You are: The Thoughtful Realist';
         resultStyle = 'bg-dark';
     }
+
+    setResult(resultText);
 
     return (
         <section className="bg-dark text-white" style={{ display: showResult ? 'block' : 'none' }}>

@@ -15,6 +15,8 @@ export const DataProvider = ({children}) => {
   const [showQuiz, setShowQuiz] = useState(false);
   const [showResult, setShowResult] = useState(false);
   const [chatbot, setShowBot] =useState(false)
+  const [result, setResult] = useState("");
+
   // Load JSON Data
   useEffect(() => {
     fetch('quiz.json')
@@ -101,6 +103,7 @@ export const DataProvider = ({children}) => {
         <DataContext.Provider value={{
             startQuiz,showStart,showQuiz,question,quizs,checkAnswer,
             selectedAnswer,questionIndex,nextQuestion,showTheResult,showResult,marks,
+            setResult, result,
             startOver,startChat, chatbot
         }} >
             {children}
