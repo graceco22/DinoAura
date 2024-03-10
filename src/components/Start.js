@@ -15,7 +15,7 @@ const Start = () => {
                     </div>
                 </div>
                 <div className = "dinos">
-                    <animated.div style= {{width: 80, height: 80}}> // HERE
+                    <animated.div style= {{width: 80, height: 80}}> 
 
                     </animated.div>
                 </div>
