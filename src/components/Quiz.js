@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import DataContext from '../context/dataContext';
 
-
 const Quiz = () => {
     const { showQuiz, question, quizs, checkAnswer, correctAnswer,
             selectedAnswer,questionIndex, nextQuestion, showTheResult }  = useContext(DataContext);

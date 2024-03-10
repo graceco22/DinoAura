@@ -14,7 +14,7 @@ export const DataProvider = ({children}) => {
   const [showStart, setShowStart] = useState(true);
   const [showQuiz, setShowQuiz] = useState(false);
   const [showResult, setShowResult] = useState(false);
-
+  const [chatbot, setShowBot] =useState(false)
   // Load JSON Data
   useEffect(() => {
     fetch('quiz.json')
@@ -86,11 +86,22 @@ export const DataProvider = ({children}) => {
     const rightBtn = document.querySelector('button.bg-success');
     rightBtn?.classList.remove('bg-success');
   }
+
+  const startChat = () => {
+    console.log("start chat")
+    setShowStart(false);
+    setShowResult(false);
+    setShowBot(true)
+    setSelectedAnswer('');
+    setQuestionIndex(0);
+    setMarks(0);
+
+  } 
     return (
         <DataContext.Provider value={{
             startQuiz,showStart,showQuiz,question,quizs,checkAnswer,
             selectedAnswer,questionIndex,nextQuestion,showTheResult,showResult,marks,
-            startOver
+            startOver,startChat, chatbot
         }} >
             {children}
         </DataContext.Provider>

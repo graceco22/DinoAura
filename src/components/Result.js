@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
 import DataContext from '../context/dataContext';
-
+import { DeepChat } from 'deep-chat-react';
+import { useState } from 'react';
 const Result = () => {
-    const { showResult, quizs, marks, startOver } = useContext(DataContext);
+    const { showResult, quizs, marks, startOver, startChat } = useContext(DataContext);
 
     let resultText, resultStyle;
 
@@ -31,6 +32,8 @@ const Result = () => {
                         <div className={`text-light text-center p-5 rounded ${resultStyle}`}>
                             <h1 className='mb-2 fw-bold'>{resultText}</h1>
                             <button onClick={startOver} className='btn py-2 px-4 btn-light fw-bold d-inline'>Start Over</button>
+                            <button onClick={startChat} className='btn py-2 px-4 btn-light fw-bold d-inline'>Go To Chat</button>
+
                         </div>
                     </div>
                 </div>
