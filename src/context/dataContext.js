@@ -41,7 +41,7 @@ export const DataProvider = ({children}) => {
   const checkAnswer = (event, selected) => {
     if (!selectedAnswer) {
       setSelectedAnswer(selected);
-
+      
       event.target.classList.add('bg-success');
 
       if (selected === question.five) {
