@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { DeepChat } from 'deep-chat-react';
 import DataContext from '../context/dataContext';
 import '../style.css';
+import { imageConfigDefault } from 'next/dist/shared/lib/image-config';
 
 const Chatbot = () => {
     const { 
@@ -34,9 +35,9 @@ const Chatbot = () => {
 
     return (
         
-      <div className="Chat">
+      <div className="Chat" style={{ backgroundImage: 'url(/images/chatBackground.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <br></br>
-        <h1>Dino Chat</h1>
+        <h1 style={{ color: '#448569' }}>Chat With Your Dino</h1>
         <DeepChat
         directConnection={{
             cohere: {
