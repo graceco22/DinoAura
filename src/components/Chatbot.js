@@ -18,12 +18,20 @@ const Chatbot = () => {
     } = useContext(DataContext);
 
     return (
+        
       <div className="Chat">
         <br></br>
         <h1>Dino Chat</h1>
         <DeepChat
-        demo={true}
+        directConnection={{
+            cohere: {
+              key: process.env.REACT_APP_COHERE_API_KEY,
+              chat: { system_prompt: 'Assist me with anything you can' },
+            }
+          }}
+        // demo={false}
         style={{ borderRadius: '10px' }}
+       
         // textInput={{ placeholder: { text: 'Welcome to the demo!' } }}
         // initialMessages={initialMessages}
         />
